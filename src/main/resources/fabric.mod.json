@@ -9,7 +9,8 @@
   ],
   "contact": {
     "homepage": "My homepage",
-    "sources": "githubwebsite"
+    "sources": "https://github.com/Medatur76/FunMultiplayerIdeas",
+    "issues": "https://github.com/Medatur76/FunMultiplayerIdeas/issues"
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/funmultiplayerideas/icon.png",
@@ -39,7 +40,7 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.discord": "",
+        "modmenu.discord": "https://discord.gg/HdHu4PG5VB",
         "modmenu.modrinth": ""
       },
       "update_checker": true
