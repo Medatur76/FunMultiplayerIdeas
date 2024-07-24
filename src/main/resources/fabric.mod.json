@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "funmultiplayerideas",
+  "version": "${version}",
+  "name": "Fun Multiplayer Ideas",
+  "description": "A set of fun ideas I had for multiplayer servers",
+  "authors": [
+    "Medatur76"
+  ],
+  "contact": {
+    "homepage": "My homepage",
+    "sources": "githubwebsite"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/funmultiplayerideas/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.medatur76.funmultiplayerideas.FunMultiplayerIdeas"
+    ],
+    "client": [
+      "com.medatur76.funmultiplayerideas.client.FunMultiplayerIdeasClient"
+    ],
+    "server": [
+      "com.medatur76.funmultiplayerideas.server.FunMultiplayerIdeasServer"
+    ]
+  },
+  "mixins": [
+    "funmultiplayerideas.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "",
+        "modmenu.modrinth": ""
+      },
+      "update_checker": true
+    }
+  }
+}
